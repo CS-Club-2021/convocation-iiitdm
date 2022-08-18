@@ -140,7 +140,7 @@ li a {
 
 /* Venue */
 .venue {
-  margin: 100px 0;
+  /* margin: 100px 0; */
 }
 .venue h2,
 .venue p {
@@ -148,7 +148,7 @@ li a {
 }
 .venue .map iframe {
   width: 100%;
-  margin: 50px 0;
+  /* margin: 50px 0; */
 }
 
 /* Graduants */
@@ -283,7 +283,7 @@ li a {
   }
 
   .venue {
-    margin: 50px 0;
+    /* margin: 50px 0; */
   }
   .venue h2 {
     font-size: 48px;
@@ -293,7 +293,7 @@ li a {
     padding: 0 20px;
   }
   .venue .map iframe {
-    margin: 30px 0;
+    /* margin: 30px 0; */
   }
 
   .graduant-section h2 {
