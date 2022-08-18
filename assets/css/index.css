@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -55,7 +55,6 @@ a:hover {
   list-style: none;
 } */
 
-
 /* Navigation bar */
 nav {
   height: 50px;
@@ -86,12 +85,13 @@ li a {
   font-weight: 500;
 } */
 
-
-
 /* -------------HOME PAGE-------------- */
 
 /* Carouel */
-#carouselExampleCaptions, .carousel-inner, .carousel-item, .carousel-inner .carousel-item img {
+#carouselExampleCaptions,
+.carousel-inner,
+.carousel-item,
+.carousel-inner .carousel-item img {
   height: 100vh;
 }
 
@@ -112,7 +112,6 @@ li a {
   width: 40%;
 }
 
-
 /* Guests and Speech */
 .guests-and-speech {
   display: flex;
@@ -127,10 +126,9 @@ li a {
   gap: 50px;
   max-width: 1200px;
 }
-.guest-speech .guest {
+.guest {
   height: 200px;
   min-width: 200px;
-  border-radius: 50%;
   background-color: gray;
   /* background: url('https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg'); */
   background-size: cover;
@@ -140,19 +138,18 @@ li a {
   width: 60%;
 }
 
-
 /* Venue */
 .venue {
   margin: 100px 0;
 }
-.venue h2, .venue p {
+.venue h2,
+.venue p {
   text-align: center;
 }
 .venue .map iframe {
   width: 100%;
   margin: 50px 0;
 }
-
 
 /* Graduants */
 .graduant-section {
@@ -194,13 +191,18 @@ li a {
   font-size: 18px;
 }
 
-
-
-
-
-
-
-
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-facebook-f:before {
+  content: "\f39e";
+}
+.fa-facebook-messenger:before {
+  content: "\f39f";
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
 
 @media (max-width: 1000px) {
   h1 {
@@ -224,7 +226,7 @@ li a {
   p {
     font-size: 0.8rem;
   }
-  
+
   /* About us */
   .about-us {
     margin: 50px 0;
@@ -280,20 +282,19 @@ li a {
     width: 100%;
   }
 
-  
   .venue {
     margin: 50px 0;
   }
   .venue h2 {
     font-size: 48px;
   }
-  .venue h2, .venue p {
+  .venue h2,
+  .venue p {
     padding: 0 20px;
   }
   .venue .map iframe {
     margin: 30px 0;
   }
-
 
   .graduant-section h2 {
     font-size: 48px;
